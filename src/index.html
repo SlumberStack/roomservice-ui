@@ -5,9 +5,17 @@
   <title>RoomserviceUi</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root></app-root>
+  <df-messenger
+    chat-icon="https:&#x2F;&#x2F;cloud.google.com&#x2F;_static&#x2F;images&#x2F;cloud&#x2F;icons&#x2F;favicons&#x2F;onecloud&#x2F;super_cloud.png"
+    intent="WELCOME"
+    chat-title="roomservice_agent"
+    agent-id="f01d7c6e-309c-41cb-9453-4657c3975507"
+    language-code="en"
+  ></df-messenger>
 </body>
 </html>
